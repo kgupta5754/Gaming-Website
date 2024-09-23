@@ -1,0 +1,64 @@
+body {
+    background: url("images.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 60px; /* Adjusted to account for the navbar height */
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(11, 11, 11);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: darkslategray;
+}
+
+.content {
+    background-color: rgba(3, 3, 3, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
